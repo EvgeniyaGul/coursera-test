@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+.row {
+    width: 100%;
+}
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+#Title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.item {
+    background-color: #f6b319;
+   color: #557c3e;
+}
+
+#text {
+    padding: 10px;
+}
+.text-center {
+    padding-bottom: 30px;
+}
+/**HEADER**/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Business name*/
+    padding: 0;
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: right;
+}
+
+/********** Extra small devices **********/
+@media (max-width: 767px) {
+    /*header*/
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+        }
+    .navbar-brand h1 { /*business name*/
+        padding-top: 10px;
+        font-size: 5vw;
+        }
+        
+}
